@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.claude.com)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir --eslint --import-alias \"@/*\" --no-turbopack --use-npm --skip-install --yes)",
+      "Bash(npm install *)"
+    ]
+  }
+}
